@@ -2,7 +2,7 @@
   "name": "passport-inventory-sync-enqueue",
   "version": "1.0.0",
   "description": "An AWS Lambda script to pull current inventory from Passport and create a SQS queue entry for each item. Once the process is complete an SNS message is sent.",
-  "main": "lambda.json",
+  "main": "lambda.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/ECHOInternational/passport-inventory-sync-enqueue/issues"
   },
-  "homepage": "https://github.com/ECHOInternational/passport-inventory-sync-enqueue#readme"
+  "homepage": "https://github.com/ECHOInternational/passport-inventory-sync-enqueue#readme",
+  "dependencies": {
+    "aws-sdk": "^2.258.1",
+    "mssql": "^4.1.0"
+  }
 }
