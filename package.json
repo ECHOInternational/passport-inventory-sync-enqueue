@@ -25,6 +25,7 @@
   "homepage": "https://github.com/ECHOInternational/passport-inventory-sync-enqueue#readme",
   "dependencies": {
     "aws-sdk": "^2.258.1",
+    "dotenv": "^6.0.0",
     "mssql": "^4.1.0"
   }
 }
